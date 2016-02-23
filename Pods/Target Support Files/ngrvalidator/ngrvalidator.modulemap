@@ -1,6 +1,0 @@
-framework module NGRValidator {
-  umbrella header "ngrvalidator-umbrella.h"
-
-  export *
-  module * { export * }
-}
