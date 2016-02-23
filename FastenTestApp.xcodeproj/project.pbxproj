@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CC027ADB1C7C6322000A6D9B /* FTAuthData.m in Sources */ = {isa = PBXBuildFile; fileRef = CC027ADA1C7C6322000A6D9B /* FTAuthData.m */; };
+		CC027AE01C7CEAFF000A6D9B /* FTServiceComponents.m in Sources */ = {isa = PBXBuildFile; fileRef = CC027ADF1C7CEAFF000A6D9B /* FTServiceComponents.m */; };
 		CCAE6D121C7B2DC100FF09D0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCAE6D111C7B2DC100FF09D0 /* main.m */; };
 		CCAE6D1B1C7B2DC100FF09D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCAE6D191C7B2DC100FF09D0 /* Main.storyboard */; };
 		CCAE6D201C7B2DC100FF09D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCAE6D1E1C7B2DC100FF09D0 /* LaunchScreen.storyboard */; };
@@ -21,7 +22,6 @@
 		CCBFCF751C7B76F7000F8EE1 /* FTBaseSocketService.m in Sources */ = {isa = PBXBuildFile; fileRef = CCBFCF741C7B76F7000F8EE1 /* FTBaseSocketService.m */; };
 		CCBFCF7A1C7B77A2000F8EE1 /* FTSocketData.m in Sources */ = {isa = PBXBuildFile; fileRef = CCBFCF771C7B77A2000F8EE1 /* FTSocketData.m */; };
 		CCBFCF7B1C7B77A2000F8EE1 /* FTSocketDataSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = CCBFCF791C7B77A2000F8EE1 /* FTSocketDataSerializer.m */; };
-		CCBFCF7E1C7B7851000F8EE1 /* FTServiceComponents.m in Sources */ = {isa = PBXBuildFile; fileRef = CCBFCF7D1C7B7851000F8EE1 /* FTServiceComponents.m */; };
 		FCFE444191D204CC26BA9B5E /* Pods_FastenTestApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 265EC8E2C37289D7B9FD1DAC /* Pods_FastenTestApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +31,9 @@
 		9823AB4045289C41DA1126A4 /* Pods-FastenTestApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FastenTestApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-FastenTestApp/Pods-FastenTestApp.release.xcconfig"; sourceTree = "<group>"; };
 		CC027AD91C7C6322000A6D9B /* FTAuthData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FTAuthData.h; path = Services/AuthService/FTAuthData.h; sourceTree = "<group>"; };
 		CC027ADA1C7C6322000A6D9B /* FTAuthData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FTAuthData.m; path = Services/AuthService/FTAuthData.m; sourceTree = "<group>"; };
+		CC027ADC1C7CEAF7000A6D9B /* FTAuthService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FTAuthService.h; path = Services/AuthService/FTAuthService.h; sourceTree = "<group>"; };
+		CC027ADE1C7CEAFF000A6D9B /* FTServiceComponents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTServiceComponents.h; sourceTree = "<group>"; };
+		CC027ADF1C7CEAFF000A6D9B /* FTServiceComponents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTServiceComponents.m; sourceTree = "<group>"; };
 		CCAE6D0D1C7B2DC100FF09D0 /* FastenTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FastenTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCAE6D111C7B2DC100FF09D0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CCAE6D1A1C7B2DC100FF09D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -41,7 +44,6 @@
 		CCAE6D2D1C7B2E0800FF09D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CCAE6D341C7B2E6A00FF09D0 /* FTBaseAuthService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FTBaseAuthService.h; path = Services/AuthService/FTBaseAuthService.h; sourceTree = "<group>"; };
 		CCAE6D351C7B2E6A00FF09D0 /* FTBaseAuthService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FTBaseAuthService.m; path = Services/AuthService/FTBaseAuthService.m; sourceTree = "<group>"; };
-		CCAE6D371C7B2E8900FF09D0 /* FTAuthService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTAuthService.h; sourceTree = "<group>"; };
 		CCAE6D391C7B2FC900FF09D0 /* FTConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FTConstants.h; path = Configuration/FTConstants.h; sourceTree = "<group>"; };
 		CCAE6D3A1C7B2FC900FF09D0 /* FTConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FTConstants.m; path = Configuration/FTConstants.m; sourceTree = "<group>"; };
 		CCBFCF621C7B3155000F8EE1 /* FTAuthController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTAuthController.h; sourceTree = "<group>"; };
@@ -56,8 +58,6 @@
 		CCBFCF771C7B77A2000F8EE1 /* FTSocketData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FTSocketData.m; path = Services/SocketService/FTSocketData.m; sourceTree = "<group>"; };
 		CCBFCF781C7B77A2000F8EE1 /* FTSocketDataSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FTSocketDataSerializer.h; path = Services/SocketService/FTSocketDataSerializer.h; sourceTree = "<group>"; };
 		CCBFCF791C7B77A2000F8EE1 /* FTSocketDataSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FTSocketDataSerializer.m; path = Services/SocketService/FTSocketDataSerializer.m; sourceTree = "<group>"; };
-		CCBFCF7C1C7B7851000F8EE1 /* FTServiceComponents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FTServiceComponents.h; path = Services/FTServiceComponents.h; sourceTree = "<group>"; };
-		CCBFCF7D1C7B7851000F8EE1 /* FTServiceComponents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FTServiceComponents.m; path = Services/FTServiceComponents.m; sourceTree = "<group>"; };
 		CCBFCF7F1C7B7876000F8EE1 /* FTSocketService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FTSocketService.h; path = Services/SocketService/FTSocketService.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -88,6 +88,16 @@
 				9823AB4045289C41DA1126A4 /* Pods-FastenTestApp.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		CC027ADD1C7CEAFF000A6D9B /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				CC027ADE1C7CEAFF000A6D9B /* FTServiceComponents.h */,
+				CC027ADF1C7CEAFF000A6D9B /* FTServiceComponents.m */,
+			);
+			name = Components;
+			path = Services/Components;
 			sourceTree = "<group>";
 		};
 		CCAE6D041C7B2DC100FF09D0 = {
@@ -188,10 +198,9 @@
 		CCAE6D321C7B2E4700FF09D0 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				CC027ADD1C7CEAFF000A6D9B /* Components */,
 				CCBFCF721C7B7689000F8EE1 /* SocketService */,
 				CCAE6D331C7B2E4F00FF09D0 /* AuthService */,
-				CCBFCF7C1C7B7851000F8EE1 /* FTServiceComponents.h */,
-				CCBFCF7D1C7B7851000F8EE1 /* FTServiceComponents.m */,
 			);
 			name = Services;
 			sourceTree = "<group>";
@@ -199,7 +208,7 @@
 		CCAE6D331C7B2E4F00FF09D0 /* AuthService */ = {
 			isa = PBXGroup;
 			children = (
-				CCAE6D371C7B2E8900FF09D0 /* FTAuthService.h */,
+				CC027ADC1C7CEAF7000A6D9B /* FTAuthService.h */,
 				CCAE6D341C7B2E6A00FF09D0 /* FTBaseAuthService.h */,
 				CCAE6D351C7B2E6A00FF09D0 /* FTBaseAuthService.m */,
 				CC027AD91C7C6322000A6D9B /* FTAuthData.h */,
@@ -369,8 +378,8 @@
 				CC027ADB1C7C6322000A6D9B /* FTAuthData.m in Sources */,
 				CCBFCF7B1C7B77A2000F8EE1 /* FTSocketDataSerializer.m in Sources */,
 				CCBFCF7A1C7B77A2000F8EE1 /* FTSocketData.m in Sources */,
-				CCBFCF7E1C7B7851000F8EE1 /* FTServiceComponents.m in Sources */,
 				CCAE6D3B1C7B2FC900FF09D0 /* FTConstants.m in Sources */,
+				CC027AE01C7CEAFF000A6D9B /* FTServiceComponents.m in Sources */,
 				CCBFCF6B1C7B31BB000F8EE1 /* FTStoryboards.m in Sources */,
 				CCAE6D361C7B2E6A00FF09D0 /* FTBaseAuthService.m in Sources */,
 			);
