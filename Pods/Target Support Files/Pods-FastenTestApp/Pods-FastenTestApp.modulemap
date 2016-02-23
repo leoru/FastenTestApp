@@ -1,0 +1,6 @@
+framework module Pods_FastenTestApp {
+  umbrella header "Pods-FastenTestApp-umbrella.h"
+
+  export *
+  module * { export * }
+}
